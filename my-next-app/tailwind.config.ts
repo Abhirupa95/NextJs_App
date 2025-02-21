@@ -11,8 +11,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        purple : "#800080",
+        yellow: "#ffff00",
+        black: '#000000',
+        cadetblue: 'cadetblue',
+        aliceblue: 'aliceblue'
       },
+      fontFamily: {
+        fantasy: ["fantasy"], 
+      }
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 } satisfies Config;
