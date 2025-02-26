@@ -15,7 +15,8 @@ export default {
         yellow: "#ffff00",
         black: '#000000',
         cadetblue: 'cadetblue',
-        aliceblue: 'aliceblue'
+        aliceblue: 'aliceblue',
+        blue: '#0000ff'
       },
       fontFamily: {
         fantasy: ["fantasy"], 
