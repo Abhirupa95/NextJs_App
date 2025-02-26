@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+a{
+  text-decoration: underline;
+  margin: 2rem;
+  text-decoration-color: rgb(6, 56, 147);
+}
